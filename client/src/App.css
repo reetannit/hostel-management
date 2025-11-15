@@ -1,0 +1,33 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'); */
+
+/* body {
+  font-family: 'Inter', sans-serif;
+} */
+
+/* Section Title Styles (Shared across components) */
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1e3c72;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 50px;
+  font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+}

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://hostel-management-system-backend4.onrender.com/api', // Make sure this matches your backend port
+  baseURL: 'https://hostel-backend-3j33.onrender.com/api', // Make sure this matches your backend port
   headers: {
     'Content-Type': 'application/json',
   },
